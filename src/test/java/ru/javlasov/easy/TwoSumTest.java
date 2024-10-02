@@ -24,7 +24,6 @@ class TwoSumTest {
         int[] expected = {0, 1};
         int[] actual = twoSum.twoSum(incomeNums, target);
 
-        System.out.println("expected: " + Arrays.toString(expected) + " | actual: " + Arrays.toString(actual));
         assertThat(expected).isEqualTo(actual);
         System.out.println("----------------------------------------");
     }
@@ -41,7 +40,6 @@ class TwoSumTest {
         int[] expected = {0, 1};
         int[] actual = twoSum.twoSum(incomeNums, target);
 
-        System.out.println("expected: " + Arrays.toString(expected) + " | actual: " + Arrays.toString(actual));
         assertThat(expected).isEqualTo(actual);
         System.out.println("----------------------------------------");
     }
@@ -58,7 +56,6 @@ class TwoSumTest {
         int[] expected = {1, 2};
         int[] actual = twoSum.twoSum(incomeNums, target);
 
-        System.out.println("expected: " + Arrays.toString(expected) + " | actual: " + Arrays.toString(actual));
         assertThat(expected).isEqualTo(actual);
         System.out.println("----------------------------------------");
     }
