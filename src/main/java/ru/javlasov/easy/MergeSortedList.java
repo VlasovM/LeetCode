@@ -1,6 +1,6 @@
 package ru.javlasov.easy;
 
-import ru.javlasov.easy.HelperClasses.ListNode;
+import ru.javlasov.easy.helperClasses.ListNode;
 
 import java.util.ArrayList;
 import java.util.Collections;

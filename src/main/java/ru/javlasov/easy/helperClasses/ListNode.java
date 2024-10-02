@@ -1,4 +1,4 @@
-package ru.javlasov.easy.HelperClasses;
+package ru.javlasov.easy.helperClasses;
 
 
 public class ListNode {

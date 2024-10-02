@@ -2,12 +2,9 @@ package ru.javlasov.easy;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.javlasov.easy.HelperClasses.ListNode;
-
-import java.util.Arrays;
+import ru.javlasov.easy.helperClasses.ListNode;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Merge sorted list")
 class MergeSortedListTest {
