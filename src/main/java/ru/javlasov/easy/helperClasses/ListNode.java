@@ -30,6 +30,10 @@ public class ListNode {
         return next;
     }
 
+    public void setNext(ListNode next) {
+        this.next = next;
+    }
+
     @Override
     public String toString() {
         return val + (next == null ? "" : ", " + next);
