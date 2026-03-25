@@ -16,14 +16,17 @@ public class MergeSortedArray {
     }
 
     private static void merge(int[] nums1, int m, int[] nums2, int n) {
+        System.out.println("input: nums1: " + Arrays.toString(nums1) + "; m = " + m +
+                "; nums2: " + Arrays.toString(nums2) + "; n = " + n);
+
         if (n == 0) {
-            System.out.println("result: " + Arrays.toString(nums1));
+            System.out.println("result: " + Arrays.toString(nums1) + "\n");
             return;
         }
 
         if (m == 0) {
             System.arraycopy(nums2, 0, nums1, 0, n);
-            System.out.println("result: " + Arrays.toString(nums1));
+            System.out.println("result: " + Arrays.toString(nums1) + "\n");
             return;
         }
 
@@ -48,7 +51,7 @@ public class MergeSortedArray {
             indexLastElementResultList--;
         }
 
-        System.out.println("result: " + Arrays.toString(nums1));
+        System.out.println("result: " + Arrays.toString(nums1) + "\n");
     }
 
 }
