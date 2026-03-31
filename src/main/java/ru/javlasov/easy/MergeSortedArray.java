@@ -1,32 +1,18 @@
 package ru.javlasov.easy;
 
-import java.util.Arrays;
+/**
+ * <a href="https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ */
 
 public class MergeSortedArray {
 
-    public static void main(String[] args) {
-        // example 1:
-        merge(new int[]{1, 2, 3, 0, 0, 0}, 3, new int[]{2, 5, 6}, 3);
-        // example 2:
-        merge(new int[]{1}, 1, new int[]{}, 0);
-        // example 3:
-        merge(new int[]{0}, 0, new int[]{}, 0);
-        // example 4:
-        merge(new int[]{0}, 0, new int[]{1}, 1);
-    }
-
-    private static void merge(int[] nums1, int m, int[] nums2, int n) {
-        System.out.println("input: nums1: " + Arrays.toString(nums1) + "; m = " + m +
-                "; nums2: " + Arrays.toString(nums2) + "; n = " + n);
-
+    public static void merge(int[] nums1, int m, int[] nums2, int n) {
         if (n == 0) {
-            System.out.println("result: " + Arrays.toString(nums1) + "\n");
             return;
         }
 
         if (m == 0) {
             System.arraycopy(nums2, 0, nums1, 0, n);
-            System.out.println("result: " + Arrays.toString(nums1) + "\n");
             return;
         }
 
@@ -50,8 +36,6 @@ public class MergeSortedArray {
             indexLastElementNums2--;
             indexLastElementResultList--;
         }
-
-        System.out.println("result: " + Arrays.toString(nums1) + "\n");
     }
 
 }
