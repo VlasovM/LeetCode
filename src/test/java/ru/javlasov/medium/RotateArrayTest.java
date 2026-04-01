@@ -17,7 +17,7 @@ class RotateArrayTest {
         int[] nums = {1, 2, 3, 4, 5, 6, 7};
 
         int[] expected = {5, 6, 7, 1, 2, 3, 4};
-        System.out.println(Arrays.toString(expected));
+        System.out.println("expected: " + Arrays.toString(expected));
 
         rotate(nums, k);
 
@@ -31,7 +31,7 @@ class RotateArrayTest {
         int[] nums = {-1, -100, 3, 99};
 
         int[] expected = {3, 99, -1, -100};
-        System.out.println("expected: " +  Arrays.toString(expected));
+        System.out.println("expected: " + Arrays.toString(expected));
 
         rotate(nums, k);
 
@@ -45,7 +45,7 @@ class RotateArrayTest {
         int[] nums = {1, 2, 3};
 
         int[] expected = {1, 2, 3};
-        System.out.println(Arrays.toString(expected));
+        System.out.println("expected: " + Arrays.toString(expected));
 
         rotate(nums, k);
 
