@@ -10,7 +10,7 @@ class BestTimeToBuyAndSellStockIITest {
 
     @Test
     @DisplayName("Example 1: prices = [7,1,5,3,6,4]")
-    void testRotateArrayTestExampleFirst() {
+    void testExampleFirst() {
         int[] prices = {7, 1, 5, 3, 6, 4};
 
         int expected = 7;
@@ -23,7 +23,7 @@ class BestTimeToBuyAndSellStockIITest {
 
     @Test
     @DisplayName("Example 2: prices = [7,6,4,3,1]")
-    void testRotateArrayTestExampleSecond() {
+    void testExampleSecond() {
         int[] prices = {7, 6, 4, 3, 1};
 
         int expected = 0;
@@ -36,7 +36,7 @@ class BestTimeToBuyAndSellStockIITest {
 
     @Test
     @DisplayName("Example 3: prices = [1,2,3,4,5]")
-    void testRotateArrayTestExampleThird() {
+    void testExampleThird() {
         int[] prices = {1, 2, 3, 4, 5};
 
         int expected = 4;

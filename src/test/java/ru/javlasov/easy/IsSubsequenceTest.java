@@ -1,35 +1,37 @@
-package ru.javlasov.medium;
+package ru.javlasov.easy;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static ru.javlasov.medium.JumpGame.canJump;
+import static ru.javlasov.easy.IsSubsequence.isSubsequence;
 
-class JumpGameTest {
+class IsSubsequenceTest {
 
     @Test
-    @DisplayName("Example 1: prices = [2,3,1,1,4]")
+    @DisplayName("Example 1: s = abc, t = ahbgdc")
     void testExampleFirst() {
-        int[] nums = {2, 3, 1, 1, 4};
+        String s = "abc";
+        String t = "ahbgdc";
 
         boolean expected = true;
         System.out.println("expected: " + expected);
 
-        boolean actual = canJump(nums);
+        boolean actual = isSubsequence(s, t);
 
         assertEquals(expected, actual);
     }
 
     @Test
-    @DisplayName("Example 2: prices = [3,2,1,0,4]")
+    @DisplayName("Example 2: s = axc, t = ahbgdc")
     void testExampleSecond() {
-        int[] nums = {3, 2, 1, 0, 4};
+        String s = "axc";
+        String t = "ahbgdc";
 
         boolean expected = false;
         System.out.println("expected: " + expected);
 
-        boolean actual = canJump(nums);
+        boolean actual = isSubsequence(s, t);
 
         assertEquals(expected, actual);
     }
