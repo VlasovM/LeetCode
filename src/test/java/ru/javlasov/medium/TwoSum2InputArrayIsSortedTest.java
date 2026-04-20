@@ -12,7 +12,7 @@ class TwoSum2InputArrayIsSortedTest {
 
     @Test
     @DisplayName("Example 1: numbers = [2,7,11,15], target = 9")
-    void testRotateArrayTestExampleFirst() {
+    void testExampleFirst() {
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
 
@@ -26,7 +26,7 @@ class TwoSum2InputArrayIsSortedTest {
 
     @Test
     @DisplayName("Example 2: numbers = [2,3,4], target = 6")
-    void testRotateArrayTestExampleSecond() {
+    void testExampleSecond() {
         int[] numbers = {2, 3, 4};
         int target = 6;
 
@@ -40,7 +40,7 @@ class TwoSum2InputArrayIsSortedTest {
 
     @Test
     @DisplayName("Example 3: numbers = [-1,0], target = -1")
-    void testRotateArrayTestExampleThird() {
+    void testExampleThird() {
         int[] numbers = {-1, 0};
         int target = -1;
 

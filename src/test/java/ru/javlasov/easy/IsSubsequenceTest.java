@@ -10,7 +10,7 @@ class IsSubsequenceTest {
 
     @Test
     @DisplayName("Example 1: s = abc, t = ahbgdc")
-    void testRotateArrayTestExampleFirst() {
+    void testExampleFirst() {
         String s = "abc";
         String t = "ahbgdc";
 
@@ -24,7 +24,7 @@ class IsSubsequenceTest {
 
     @Test
     @DisplayName("Example 2: s = axc, t = ahbgdc")
-    void testRotateArrayTestExampleSecond() {
+    void testExampleSecond() {
         String s = "axc";
         String t = "ahbgdc";
 

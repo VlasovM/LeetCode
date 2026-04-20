@@ -10,7 +10,7 @@ class MinimumSizeSubarraySumTest {
 
     @Test
     @DisplayName("Example 1: nums = [2,3,1,2,4,3], target = 7")
-    void testRotateArrayTestExampleFirst() {
+    void testExampleFirst() {
         int[] nums = {2, 3, 1, 2, 4, 3};
         int target = 7;
 
@@ -24,7 +24,7 @@ class MinimumSizeSubarraySumTest {
 
     @Test
     @DisplayName("Example 2: nums = [1,4,4], target = 4")
-    void testRotateArrayTestExampleSecond() {
+    void testExampleSecond() {
         int[] nums = {1, 4, 4};
         int target = 4;
 
@@ -38,7 +38,7 @@ class MinimumSizeSubarraySumTest {
 
     @Test
     @DisplayName("Example 3: nums = [1,1,1,1,1,1,1,1], target = 11")
-    void testRotateArrayTestExampleThird() {
+    void testExampleThird() {
         int[] nums = {1, 1, 1, 1, 1, 1, 1, 1};
         int target = 11;
 

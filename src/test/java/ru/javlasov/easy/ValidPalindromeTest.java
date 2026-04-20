@@ -10,7 +10,7 @@ class ValidPalindromeTest {
 
     @Test
     @DisplayName("Example 1: A man, a plan, a canal: Panama")
-    void testRotateArrayTestExampleFirst() {
+    void testExampleFirst() {
         String input = "A man, a plan, a canal: Panama";
 
         boolean expected = true;
@@ -23,7 +23,7 @@ class ValidPalindromeTest {
 
     @Test
     @DisplayName("Example 2: race a car")
-    void testRotateArrayTestExampleSecond() {
+    void testExampleSecond() {
         String input = "race a car";
 
         boolean expected = false;
@@ -36,7 +36,7 @@ class ValidPalindromeTest {
 
     @Test
     @DisplayName("Example 3: \" \"")
-    void testRotateArrayTestExampleThird() {
+    void testExampleThird() {
         String input = " ";
 
         boolean expected = true;
