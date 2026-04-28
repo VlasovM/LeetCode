@@ -9,9 +9,9 @@ import java.util.*;
 
 public class InsertDeleteGetRandom {
 
-    private Random random;
-    private List<Integer> list; // in this list we contain all values
-    private Map<Integer, Integer> map; // in this map we contain value and index (index in array)
+    private final Random random;
+    private final List<Integer> list; // in this list we contain all values
+    private final Map<Integer, Integer> map; // in this map we contain value and index (index in array)
 
     public InsertDeleteGetRandom() {
         list = new ArrayList<>();
