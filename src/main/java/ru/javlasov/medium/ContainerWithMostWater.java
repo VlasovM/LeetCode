@@ -5,7 +5,6 @@ public class ContainerWithMostWater {
     /**
      * LeetCode:
      * <a href="https://leetcode.com/problems/container-with-most-water/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
-     *
      * In this task we use Two-pointer method.
      * The key idea is to move the pointer that has a lower height.
      */
