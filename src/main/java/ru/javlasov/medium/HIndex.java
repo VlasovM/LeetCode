@@ -7,7 +7,6 @@ public class HIndex {
     /**
      * LeetCode:
      * <a href="https://leetcode.com/problems/h-index/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
-     * <p>
      *  Подсказка: Минимальное цитирование среди n - i статей не меньше, чем количество этих статей
      */
 

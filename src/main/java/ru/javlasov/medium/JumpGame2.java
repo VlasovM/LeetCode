@@ -5,7 +5,6 @@ public class JumpGame2 {
     /**
      * LeetCode:
      * <a href="https://leetcode.com/problems/jump-game-ii/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
-     * <p>
      * We solve this problem use Greedy algorithm.
      */
 

@@ -9,7 +9,6 @@ public class Sum3 {
     /**
      * LeetCode:
      * <a href="https://leetcode.com/problems/3sum/submissions/1985301452/?envType=study-plan-v2&envId=top-interview-150">...</a>
-     * <p>
      * Solved with two-pointer method
      */
 

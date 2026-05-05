@@ -3,7 +3,6 @@ package ru.javlasov.medium;
 /**
  * LeetCode:
  * <a href="https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
- *
  * In this task we use Sliding Window pattern: <a href="https://www.geeksforgeeks.org/dsa/window-sliding-technique/">...</a>
  */
 
