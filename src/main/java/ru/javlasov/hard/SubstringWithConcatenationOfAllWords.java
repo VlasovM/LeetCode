@@ -5,6 +5,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * LeetCode:
+ * <a href="https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ */
+
 public class SubstringWithConcatenationOfAllWords {
 
     public static List<Integer> findSubstring(String s, String[] words) {
