@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.hard.SubstringWithConcatenationOfAllWords.findSubstring;
+import static ru.javlasov.slidingWindow.SubstringWithConcatenationOfAllWords.findSubstring;
 
 class SubstringWithConcatenationOfAllWordsTest {
 

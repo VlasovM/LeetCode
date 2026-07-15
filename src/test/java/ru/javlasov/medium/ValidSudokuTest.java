@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.medium.ValidSudoku.isValidSudoku;
+import static ru.javlasov.matrix.ValidSudoku.isValidSudoku;
 
 class ValidSudokuTest {
 

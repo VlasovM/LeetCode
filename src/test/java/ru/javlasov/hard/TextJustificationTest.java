@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.hard.TextJustification.fullJustify;
+import static ru.javlasov.string.TextJustification.fullJustify;
 
 class TextJustificationTest {
 

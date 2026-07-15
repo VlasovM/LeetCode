@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.medium.JumpGame2.jump;
+import static ru.javlasov.greedy.JumpGame2.jump;
 
 class JumpGame2Test {
 

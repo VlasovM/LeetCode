@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static ru.javlasov.medium.MinimumSizeSubarraySum.minSubArrayLen;
+import static ru.javlasov.slidingWindow.MinimumSizeSubarraySum.minSubArrayLen;
 
 class MinimumSizeSubarraySumTest {
 

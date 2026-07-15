@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.hard.MinimumWindowSubstring.minWindow;
+import static ru.javlasov.slidingWindow.MinimumWindowSubstring.minWindow;
 
 class MinimumWindowSubstringTest {
 

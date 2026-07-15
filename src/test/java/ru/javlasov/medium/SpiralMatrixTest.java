@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.medium.SpiralMatrix.spiralOrder;
+import static ru.javlasov.matrix.SpiralMatrix.spiralOrder;
 
 class SpiralMatrixTest {
 

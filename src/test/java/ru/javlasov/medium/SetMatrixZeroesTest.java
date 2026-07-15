@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static ru.javlasov.medium.SetMatrixZeroes.setZeroes;
+import static ru.javlasov.matrix.SetMatrixZeroes.setZeroes;
 
 class SetMatrixZeroesTest {
 

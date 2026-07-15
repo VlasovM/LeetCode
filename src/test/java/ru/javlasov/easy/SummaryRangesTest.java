@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.easy.SummaryRanges.summaryRanges;
+import static ru.javlasov.intervals.SummaryRanges.summaryRanges;
 
 class SummaryRangesTest {
 

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static ru.javlasov.medium.JumpGame.canJump;
+import static ru.javlasov.greedy.JumpGame.canJump;
 
 class JumpGameTest {
 

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static ru.javlasov.medium.GameOfLife.gameOfLife;
+import static ru.javlasov.matrix.GameOfLife.gameOfLife;
 
 class GameOfLifeTest {
 

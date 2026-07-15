@@ -2,6 +2,7 @@ package ru.javlasov.medium;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import ru.javlasov.stack.MinStack;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

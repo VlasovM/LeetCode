@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static ru.javlasov.medium.ProductOfArrayExceptSelf.productExceptSelf;
+import static ru.javlasov.arrays.ProductOfArrayExceptSelf.productExceptSelf;
 
 class ProductOfArrayExceptSelfTest {
 

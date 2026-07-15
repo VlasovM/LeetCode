@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.medium.SimplifyPath.simplifyPath;
+import static ru.javlasov.stack.SimplifyPath.simplifyPath;
 
 class SimplifyPathTest {
 

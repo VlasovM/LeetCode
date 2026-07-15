@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static ru.javlasov.medium.AddTwoNumbers.addTwoNumbers;
+import static ru.javlasov.linkedList.AddTwoNumbers.addTwoNumbers;
 
 class AddTwoNumbersTest {
 

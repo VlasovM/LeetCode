@@ -2,6 +2,7 @@ package ru.javlasov.medium;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import ru.javlasov.hashMap.InsertDeleteGetRandom;
 
 import java.util.HashMap;
 import java.util.Map;

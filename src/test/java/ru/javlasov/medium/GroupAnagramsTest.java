@@ -9,7 +9,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.medium.GroupAnagrams.groupAnagrams;
+import static ru.javlasov.hashMap.GroupAnagrams.groupAnagrams;
 
 class GroupAnagramsTest {
 
