@@ -1,4 +1,4 @@
-package ru.javlasov.easy;
+package ru.javlasov.stack;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

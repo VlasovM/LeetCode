@@ -4,13 +4,14 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/basic-calculator/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Hard
+ * LeetCode: <a href="https://leetcode.com/problems/basic-calculator/description/">...</a>
+ * Time complexity: O(n) – single pass through the string, each character processed once.
+ * Memory complexity: O(n) – stack may store up to O(n) elements (nested parentheses or many saved contexts).
  */
 
 public class BasicCalculator {
 
-    // Time and memory complexity is O(n)
     public static int calculate(String s) {
         int result = 0;
         int sign = 1;

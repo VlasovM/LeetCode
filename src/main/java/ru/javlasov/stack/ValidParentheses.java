@@ -4,13 +4,14 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/valid-parentheses/description/">...</a>
+ * Time complexity: O(n) – single pass through the string.
+ * Memory complexity: O(n) – stack may hold up to n characters in worst case.
  */
 
 public class ValidParentheses {
 
-    // Time and memory complexity is O(n)
     public static boolean isValid(String s) {
         Deque<Character> deque = new ArrayDeque<>();
 

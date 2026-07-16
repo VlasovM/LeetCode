@@ -4,13 +4,14 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/description/">...</a>
+ * Time complexity: O(n) – single pass through all tokens.
+ * Memory complexity: O(n) – stack may hold up to n elements in worst case.
  */
 
 public class EvaluateReversePolishNotation {
 
-    // time and memory complexity is O(n)
     public static int evalRPN(String[] tokens) {
         Deque<String> stack = new ArrayDeque<>();
         for (int i = 0; i <= tokens.length - 1; i++) {

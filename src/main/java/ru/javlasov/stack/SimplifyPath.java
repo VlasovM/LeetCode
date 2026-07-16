@@ -4,13 +4,14 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/simplify-path/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/simplify-path/description/">...</a>
+ * Time complexity: O(n) – single pass over components after split (which itself is O(n)).
+ * Memory complexity: O(n) – stores components array and deque (up to n elements).
  */
 
 public class SimplifyPath {
 
-    // Time and memory complexity is O(n)
     public static String simplifyPath(String path) {
         String[] components = path.split("/");
         Deque<String> deque = new ArrayDeque<>();

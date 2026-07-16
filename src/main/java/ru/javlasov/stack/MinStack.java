@@ -5,8 +5,10 @@ import java.util.Deque;
 import java.util.Objects;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/min-stack/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/min-stack/description/">...</a>
+ * Time complexity: O(1) for each operation (push, pop, top, getMin).
+ * Memory complexity: O(n) – two stacks store up to n elements in total.
  */
 
 public class MinStack {
