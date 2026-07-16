@@ -1,8 +1,10 @@
 package ru.javlasov.string;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/integer-to-roman/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/integer-to-roman/description/">...</a>
+ * Time complexity: O(1) – fixed number of iterations (13 values), inner loop runs at most ~15 times for max input (3999).
+ * Memory complexity: O(1) – constant extra space (arrays + StringBuilder for output, max 15 chars).
  */
 
 public class IntegerToRoman {

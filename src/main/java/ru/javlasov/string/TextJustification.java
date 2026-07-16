@@ -3,6 +3,15 @@ package ru.javlasov.string;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Complexity: Hard
+ * LeetCode: <a href="https://leetcode.com/problems/text-justification/description/">...</a>
+ * Time complexity: O(N), where N is the total number of characters across all words (or total length of the output text).
+ * Each word/character is processed a constant number of times.
+ * Memory complexity: O(N) – we store the result lines, and use temporary arrays/strings for space distribution (discarded later).
+ * The output itself requires O(N) space.
+ */
+
 public class TextJustification {
 
     public static List<String> fullJustify(String[] words, int maxWidth) {

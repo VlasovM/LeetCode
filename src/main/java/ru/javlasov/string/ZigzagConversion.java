@@ -1,8 +1,10 @@
 package ru.javlasov.string;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/zigzag-conversion/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/zigzag-conversion/description/">...</a>
+ * Time complexity: O(n) – single pass through the input string, plus O(numRows) for concatenation (numRows ≤ n).
+ * Memory complexity: O(n) – stores all characters in StringBuilder array and final result.
  */
 
 public class ZigzagConversion {

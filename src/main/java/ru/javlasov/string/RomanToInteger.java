@@ -1,5 +1,12 @@
 package ru.javlasov.string;
 
+/**
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/roman-to-integer/description/">...</a>
+ * Time complexity: O(n) – single pass through the string.
+ * Memory complexity: O(n) – creates a char[] copy of the input string. (Could be O(1) if using charAt instead.)
+ */
+
 public class RomanToInteger {
 
     public static int romanToInt(String s) {

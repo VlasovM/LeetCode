@@ -1,8 +1,10 @@
 package ru.javlasov.string;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/container-with-most-water/description/">...</a>
+ * Time complexity: O(n) – single pass with two pointers.
+ * Memory complexity: O(1) – no extra memory used.
  */
 
 public class FindTheIndexOfTheFirstOccurrenceInAString {

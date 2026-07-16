@@ -1,8 +1,10 @@
 package ru.javlasov.string;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/length-of-last-word/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/length-of-last-word/description/">...</a>
+ * Time complexity: O(n) – single pass from the end of the string (each character processed at most once).
+ * Memory complexity: O(1) – constant extra memory (only integer variable).
  */
 
 public class LengthOfLastWord {

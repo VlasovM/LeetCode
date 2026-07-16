@@ -1,8 +1,10 @@
 package ru.javlasov.string;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/longest-common-prefix/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/longest-common-prefix/description/">...</a>
+ * Time complexity: O(n * L) where n is the number of strings and L is the length of the prefix (or maximum string length).
+ * Memory complexity: O(1) additional memory (excluding input/output; temporary strings from substring are not counted).
  */
 
 public class LongestCommonPrefix {
