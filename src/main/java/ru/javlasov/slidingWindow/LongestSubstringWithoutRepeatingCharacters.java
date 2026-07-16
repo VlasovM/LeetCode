@@ -4,8 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/description/">...</a>
+ * Time complexity: O(n) – each character is added and removed from the set at most once.
+ * Memory complexity: O(min(n, alphabet_size)) – in worst case O(n) for characters in the substring.
  */
 
 public class LongestSubstringWithoutRepeatingCharacters {

@@ -6,8 +6,12 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Hard
+ * LeetCode: <a href="https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/">...</a>
+ * Time complexity: O(n * wordLen) – outer loop over start (up to wordLen), inner loop processes each character once
+ * per start, effectively each character may be checked wordLen times.
+ * Memory complexity:  O(m + L) – need and window store up to m words from words; window may store up to L words
+ * in worst case (where L is total number of words in a window). In practice, O(m + totalLen/wordLen).
  */
 
 public class SubstringWithConcatenationOfAllWords {

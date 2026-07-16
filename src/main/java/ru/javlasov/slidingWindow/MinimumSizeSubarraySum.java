@@ -1,9 +1,10 @@
 package ru.javlasov.slidingWindow;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
- * In this task we use Sliding Window pattern: <a href="https://www.geeksforgeeks.org/dsa/window-sliding-technique/">...</a>
+ * Complexity: Hard
+ * LeetCode: <a href="https://leetcode.com/problems/minimum-window-substring/description/">...</a>
+ * Time complexity: O(n) – each element is processed at most twice (once by rightSide, once by leftSide).
+ * Memory complexity: O(1) – constant extra memory.
  */
 
 public class MinimumSizeSubarraySum {

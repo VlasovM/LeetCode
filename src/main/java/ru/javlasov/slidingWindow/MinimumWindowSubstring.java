@@ -1,8 +1,10 @@
 package ru.javlasov.slidingWindow;
 
 /**
- * LeetCode;
- * <a href="https://leetcode.com/problems/minimum-window-substring/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/minimum-size-subarray-sum/description/">...</a>
+ * Time complexity: O(|s|) – each character is processed at most twice (once by right, once by left).
+ * Memory complexity: O(1) – fixed-size array of 128 for ASCII characters.
  */
 
 public class MinimumWindowSubstring {

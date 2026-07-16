@@ -1,4 +1,4 @@
-package ru.javlasov.hard;
+package ru.javlasov.slidingWindow;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
