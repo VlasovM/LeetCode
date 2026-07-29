@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/summary-ranges/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/summary-ranges/description/">...</a>
+ * Time complexity: O(n) – single pass through the array.
+ * Memory complexity: O(1) – constant extra memory (excluding the output list).
  */
 
 public class SummaryRanges {
 
-    // Time complexity is O(n), memory is O(1)
     public static List<String> summaryRanges(int[] nums) {
         List<String> result = new ArrayList<>();
         if (nums.length == 0) {

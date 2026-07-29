@@ -4,13 +4,15 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/">...</a>
+ * Time complexity: O(n log n) – sorting the intervals by their end points.
+ * Memory complexity: O(1) – aside from the sorting overhead (which may require O(log n) to O(n) depending on implementation),
+ * the algorithm uses only a few variables. Typically considered O(1) extra memory.
  */
 
 public class MinimumNumberOfArrowsToBurstBalloons {
 
-    // Time complexity is O(n log n) for sort and memory complexity is O(1)
     public static int findMinArrowShots(int[][] points) {
         if (points.length == 0) {
             return 0;

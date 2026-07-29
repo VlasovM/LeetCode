@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Leetcode:
- * <a href="https://leetcode.com/problems/insert-interval/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/insert-interval/description/">...</a>
+ * Time complexity: O(n) – single pass over all intervals.
+ * Memory complexity: O(n) – stores the resulting list of intervals (may contain up to n+1 intervals).
  */
 
 public class InsertInterval {
 
-    // Time, Memory complexity is O(n)
     public static int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> result = new ArrayList<>();
         int[] merged = newInterval;

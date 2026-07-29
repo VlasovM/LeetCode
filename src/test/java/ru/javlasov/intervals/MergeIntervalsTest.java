@@ -1,4 +1,4 @@
-package ru.javlasov.medium;
+package ru.javlasov.intervals;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
