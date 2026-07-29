@@ -3,8 +3,11 @@ package ru.javlasov.hashMap;
 import java.util.HashSet;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/happy-number/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/happy-number/description/">...</a>
+ * Time complexity: O(log n) – each iteration processes the digits of the current number (number of digits is log₁₀ n).
+ * The total number of iterations until termination is bounded by a constant (due to the cycle), but in worst case it's O(log n).
+ * Memory complexity: O(log n) – stores seen numbers in the HashSet (could be up to the number of iterations before cycle detection).
  */
 
 public class HappyNumber {

@@ -1,4 +1,4 @@
-package ru.javlasov.easy;
+package ru.javlasov.hashMap;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

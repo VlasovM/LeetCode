@@ -4,13 +4,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/longest-consecutive-sequence/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/longest-consecutive-sequence/description/">...</a>
+ * Time complexity: O(n) – each element is processed once (HashSet building and while loop overall linear).
+ * Memory complexity: O(n) – stores all unique elements in a HashSet.
  */
 
 public class LongestConsecutiveSequence {
 
-    // Time, Memory complexity is O(n)
     public static int longestConsecutive(int[] nums) {
         if (nums.length == 0 || nums.length == 1) {
             return nums.length;

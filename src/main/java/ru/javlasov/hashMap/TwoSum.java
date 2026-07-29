@@ -4,8 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/two-sum/submissions/2021081751/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/two-sum/description/">...</a>
+ * Time complexity: O(n) – single pass through the array; each HashMap operation is O(1) on average.
+ * Memory complexity: O(n) – stores up to n elements in the worst case.
  */
 
 public class TwoSum {

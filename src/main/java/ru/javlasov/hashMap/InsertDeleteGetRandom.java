@@ -3,8 +3,13 @@ package ru.javlasov.hashMap;
 import java.util.*;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/insert-delete-getrandom-o1/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/insert-delete-getrandom-o1/description/">...</a>
+ * Time complexity:
+ * insert: O(1) average – ArrayList.add is amortized O(1), HashMap.put is O(1).
+ * remove: O(1) average – swap with last element, remove from end O(1), HashMap operations O(1).
+ * getRandom: O(1) – random index generation and ArrayList.get.
+ * Memory complexity: O(n) – stores n elements in the list and n entries in the map.
  */
 
 public class InsertDeleteGetRandom {

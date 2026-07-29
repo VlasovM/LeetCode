@@ -1,8 +1,10 @@
 package ru.javlasov.hashMap;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/ransom-note/description/">...</a>
+ * Time complexity: O(m + n) – where m = magazine.length(), n = ransomNote.length() (two passes over both strings).
+ * Memory complexity: O(1) – fixed-size array of 26 (constant).
  */
 
 public class RansomNote {

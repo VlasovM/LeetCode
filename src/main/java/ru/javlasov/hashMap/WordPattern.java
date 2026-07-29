@@ -6,9 +6,10 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/word-pattern/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
- *
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/word-pattern/description/">...</a>
+ * Time complexity: O(n + m) – where n = pattern.length() (number of words) and m = s.length() (for split). The loop runs in O(n), and split is O(m).
+ * Memory complexity: O(n) – stores up to n entries in countMap and uniqueWord.
  */
 
 public class WordPattern {

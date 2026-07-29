@@ -3,8 +3,10 @@ package ru.javlasov.hashMap;
 import java.util.Arrays;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/isomorphic-strings/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/isomorphic-strings/description/">...</a>
+ * Time complexity: O(n) – single pass through both strings.
+ * Memory complexity: O(1) – two fixed-size arrays of 256, independent of input length.
  */
 
 public class IsomorphicStrings {

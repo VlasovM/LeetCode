@@ -3,8 +3,10 @@ package ru.javlasov.hashMap;
 import java.util.*;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/group-anagrams/description/">...</a>
+ * Time complexity: O(N * K log K), where N is the number of strings and K is the average length of a string (or O(T log K) where T is total characters).
+ * Memory complexity: O(T) – stores all strings and keys in the hash map.
  */
 
 public class GroupAnagrams {

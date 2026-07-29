@@ -1,8 +1,10 @@
 package ru.javlasov.hashMap;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/valid-anagram/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/valid-anagram/description/">...</a>
+ * Time complexity: O(n) – two passes over the strings (length n).
+ * Memory complexity: O(1) – fixed-size array of 26.
  */
 
 public class ValidAnagram {

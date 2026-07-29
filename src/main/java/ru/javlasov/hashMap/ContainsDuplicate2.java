@@ -4,13 +4,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/contains-duplicate-ii/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/contains-duplicate-ii/description/">...</a>
+ * Time complexity: O(n) – single pass through the array; each HashMap operation is O(1) on average.
+ * Memory complexity: O(n) – in worst case, stores all elements (if all are unique).
+ * (Can be reduced to O(min(n, k)) with a sliding window Set, but this implementation uses a Map.)
  */
 
 public class ContainsDuplicate2 {
 
-    // O(n) in memory, O(n) in time
     public static boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
 
