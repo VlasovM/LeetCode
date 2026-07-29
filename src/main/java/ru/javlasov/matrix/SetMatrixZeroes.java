@@ -1,8 +1,10 @@
 package ru.javlasov.matrix;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/set-matrix-zeroes/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/set-matrix-zeroes/description/">...</a>
+ * Time complexity: O(m × n) – three passes over the matrix (first pass to mark, second pass to zero inner cells, plus separate loops for first row/column).
+ * Memory complexity:  O(1) – uses only a few extra variables.
  */
 
 public class SetMatrixZeroes {

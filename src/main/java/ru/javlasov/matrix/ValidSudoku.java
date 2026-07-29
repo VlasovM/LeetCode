@@ -1,34 +1,13 @@
 package ru.javlasov.matrix;
 
 /**
- * LetCode:
- * <a href="https://leetcode.com/problems/valid-sudoku/submissions/2012639371/?envType=study-plan-v2&envId=top-interview-150">...</a>
- * <p>
- * In this task I use 2 road to solve it. The first one is really simple, but is not good for the time and memory,
- * the second one it's classic solve use 3 array (or hashSet).
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/valid-sudoku/description/">...</a>
+ * Time complexity: O(1) – board size is fixed (9×9), constant number of operations.
+ * Memory complexity: O(1) – fixed-size boolean arrays (9×9 each).
  */
 
 public class ValidSudoku {
-
-//    public static boolean isValidSudoku(char[][] board) {
-//        Set<String> seen = new HashSet<>();
-//        for (int i = 0; i < 9; i++) {
-//            for (int j = 0; j < 9; j++) {
-//                char currentChar = board[i][j];
-//                if (currentChar != '.') {
-//
-//                    // HashSet return false if value is contains in set yet.
-//                    if (!seen.add(currentChar + "@row" + i) ||
-//                            !seen.add(currentChar + "@col" + j) ||
-//                            !seen.add(currentChar + "@box" + (i/3) + "," + (j/3))) {
-//                        return false;
-//                    }
-//                }
-//            }
-//        }
-//
-//        return true;
-//    }
 
     public static boolean isValidSudoku(char[][] board) {
         boolean[][] rows = new boolean[9][9];

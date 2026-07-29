@@ -1,8 +1,10 @@
 package ru.javlasov.matrix;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/rotate-image/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/rotate-image/description/">...</a>
+ * Time complexity: O(n²) – each element is processed exactly once (four rotations per layer, total n²/4 iterations, but O(n²) overall).
+ * Memory complexity: O(1) – in-place rotation, only a few integer variables used.
  */
 
 public class RotateImage {

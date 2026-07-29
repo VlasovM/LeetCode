@@ -1,5 +1,12 @@
 package ru.javlasov.matrix;
 
+/**
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/game-of-life/description/">...</a>
+ * Time complexity: O(m × n) – each cell is processed twice (first pass + second pass), and each neighbor check is constant (8 directions).
+ * Memory complexity:  O(1) – only a few variables are used; no extra data structures proportional to input size.
+ */
+
 public class GameOfLife {
 
     public static void gameOfLife(int[][] board) {

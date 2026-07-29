@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/spiral-matrix/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/spiral-matrix/description/">...</a>
+ * Time complexity: O(m × n) – each element is added exactly once.
+ * Memory complexity: O(1) additional (excluding the output list), but the output list itself requires O(m × n) space.
  */
 
 public class SpiralMatrix {
