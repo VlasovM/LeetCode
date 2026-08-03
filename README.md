@@ -15,7 +15,7 @@
   </a>
 </div>
 
-#### [English version bellow](#Solving-leetcode-problems)
+#### [English version bellow](#About-this-repository)
 
 ### О репозитории
 Этот репозиторий содержит мои решения задач с **LeetCode**, структурированные по алгоритмическим паттернам. Каждое решение сопровождается кратким описанием ключевой идеи, оценкой временной и пространственной сложности. Репозиторий создан для:
@@ -27,15 +27,15 @@
 - **`README.md`** – этот файл (общее описание, оглавление, прогресс).
 - **Папки по темам**:
     - [Two Pointers](./src/main/java/ru/javlasov/twoPointers)
-    - [Sliding Window](./sliding-window)
-    - [HashMap](./hashmap)
-    - [Stack](./stack)
-    - [Linked List](./linked-list)
-    - [Matrix](./matrix)
-    - [Intervals](./intervals)
-    - [Greedy](./greedy)
-    - [String](./string)
-    - [Arrays](./arrays)
+    - [Sliding Window](./src/main/java/ru/javlasov/slidingWindow)
+    - [HashMap](./src/main/java/ru/javlasov/hashMap)
+    - [Stack](./src/main/java/ru/javlasov/stack)
+    - [Linked List](./src/main/java/ru/javlasov/linkedList)
+    - [Matrix](./src/main/java/ru/javlasov/matrix)
+    - [Intervals](./src/main/java/ru/javlasov/intervals)
+    - [Greedy](./src/main/java/ru/javlasov/greedy)
+    - [String](./src/main/java/ru/javlasov/string)
+    - [Arrays](./src/main/java/ru/javlasov/arrays)
 
 Каждая папка содержит `README.md` с краткой теорией по паттерну и списком задач с указанием сложности.
 
@@ -64,17 +64,16 @@ This repository contains my solutions to **LeetCode** problems, organized by alg
 ### Structure
 - **`README.md`** – this file (overview, table of contents, progress).
 - **Topic folders**:
-    - [Two Pointers](./two-pointers)
-    - [Sliding Window](./sliding-window)
-    - [HashMap](./hashmap)
-    - [Stack](./stack)
-    - [Linked List](./linked-list)
-    - [Matrix](./matrix)
-    - [Intervals](./intervals)
-    - [Greedy](./greedy)
-    - [String](./string)
-    - [Arrays](./arrays)
-    - [More to come](#)
+    - [Two Pointers](./src/main/java/ru/javlasov/twoPointers)
+    - [Sliding Window](./src/main/java/ru/javlasov/slidingWindow)
+    - [HashMap](./src/main/java/ru/javlasov/hashMap)
+    - [Stack](./src/main/java/ru/javlasov/stack)
+    - [Linked List](./src/main/java/ru/javlasov/linkedList)
+    - [Matrix](./src/main/java/ru/javlasov/matrix)
+    - [Intervals](./src/main/java/ru/javlasov/intervals)
+    - [Greedy](./src/main/java/ru/javlasov/greedy)
+    - [String](./src/main/java/ru/javlasov/string)
+    - [Arrays](./src/main/java/ru/javlasov/arrays)
 
 Each folder contains a `README.md` with a brief theory of the pattern and a list of problems with complexity.
 
