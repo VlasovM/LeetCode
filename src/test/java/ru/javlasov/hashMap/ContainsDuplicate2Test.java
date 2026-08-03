@@ -38,7 +38,7 @@ class ContainsDuplicate2Test {
         int[] nums = {1, 2, 3, 1, 2, 3};
         int k = 2;
 
-        boolean expected = true;
+        boolean expected = false;
         boolean actual = containsNearbyDuplicate(nums, k);
 
         assertEquals(expected, actual);
