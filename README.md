@@ -26,7 +26,7 @@
 ### Структура
 - **`README.md`** – этот файл (общее описание, оглавление, прогресс).
 - **Папки по темам**:
-    - [Two Pointers](./two-pointers)
+    - [Two Pointers](./src/main/java/ru/javlasov/twoPointers)
     - [Sliding Window](./sliding-window)
     - [HashMap](./hashmap)
     - [Stack](./stack)
