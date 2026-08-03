@@ -1,11 +1,13 @@
 package ru.javlasov.greedy;
 
-public class Candy {
+/**
+ * Complexity: Hard
+ * LeetCode: <a href="https://leetcode.com/problems/candy/description/">...</a>
+ * Time complexity: O(n) – three linear passes through the array.
+ * Memory complexity: O(n) – uses an additional array of size n for candies.
+ */
 
-    /**
-     * LeetCode:
-     * <a href="https://leetcode.com/problems/candy/?envType=study-plan-v2&envId=top-interview-150">...</a>
-     */
+public class Candy {
 
     public static int candy(int[] ratings) {
 

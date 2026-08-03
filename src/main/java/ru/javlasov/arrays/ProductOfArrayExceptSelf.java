@@ -1,8 +1,10 @@
 package ru.javlasov.arrays;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/product-of-array-except-self/description/">...</a>
+ * Time complexity: O(n) – two linear passes through the array.
+ * Memory complexity: O(1) – constant extra memory (excluding the output array).
  */
 
 public class ProductOfArrayExceptSelf {

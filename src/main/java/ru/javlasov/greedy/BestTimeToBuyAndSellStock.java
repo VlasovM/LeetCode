@@ -1,10 +1,12 @@
 package ru.javlasov.greedy;
 
 /**
- * In this task we use Kadane's Algorithm:
- * <a href="https://www.geeksforgeeks.org/dsa/largest-sum-contiguous-subarray/">...</a>
- * LeetCode:
- * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/">...</a>
+ *  * In this task we use Kadane's Algorithm:
+ *  * <a href="https://www.geeksforgeeks.org/dsa/largest-sum-contiguous-subarray/">...</a>
+ * Time complexity: O(n) – single pass through the array (prices).
+ * Memory complexity: O(1) – only a few variables used.
  */
 
 

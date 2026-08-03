@@ -1,7 +1,7 @@
 package ru.javlasov.string;
 
 /**
- * Complexity: Medium
+ * Complexity: Easy
  * LeetCode: <a href="https://leetcode.com/problems/container-with-most-water/description/">...</a>
  * Time complexity: O(n) – single pass with two pointers.
  * Memory complexity: O(1) – no extra memory used.

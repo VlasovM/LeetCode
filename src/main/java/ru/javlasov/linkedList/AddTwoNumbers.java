@@ -2,6 +2,13 @@ package ru.javlasov.linkedList;
 
 import ru.javlasov.utills.ListNode;
 
+/**
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/add-two-numbers/description/">...</a>
+ * Time complexity: O(max(m, n)) – where m and n are the lengths of the two linked lists; each node is processed once.
+ * Memory complexity: O(max(m, n)) – for the new result list (plus O(1) extra for the dummy node and variables).
+ */
+
 public class AddTwoNumbers {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {

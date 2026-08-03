@@ -1,8 +1,10 @@
 package ru.javlasov.greedy;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/jump-game/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/jump-game/description/">...</a>
+ * Time complexity: O(n) – single pass through the array.
+ * Memory complexity: O(1) – constant extra memory.
  */
 
 public class JumpGame {

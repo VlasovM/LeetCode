@@ -1,12 +1,13 @@
 package ru.javlasov.greedy;
 
-public class JumpGame2 {
+/**
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/jump-game-ii/description/">...</a>
+ * Time complexity: O(n) – single pass through the array (except last element).
+ * Memory complexity: O(1) – constant extra memory.
+ */
 
-    /**
-     * LeetCode:
-     * <a href="https://leetcode.com/problems/jump-game-ii/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
-     * We solve this problem use Greedy algorithm.
-     */
+public class JumpGame2 {
 
     public static int jump(int[] nums) {
         if (nums.length <= 1) {

@@ -1,9 +1,10 @@
 package ru.javlasov.greedy;
 
 /**
- * LeetCode:
- * <a href="https://leetcode.com/problems/gas-station/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
- * We solve this problem use Greedy algorithm.
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/gas-station/description/">...</a>
+ * Time complexity: O(n) – two linear passes through the arrays (gas and cost).
+ * Memory complexity: O(1) – constant extra memory (only variables).
  */
 
 public class GasStation {

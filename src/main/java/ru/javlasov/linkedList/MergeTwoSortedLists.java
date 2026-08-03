@@ -2,9 +2,15 @@ package ru.javlasov.linkedList;
 
 import ru.javlasov.utills.ListNode;
 
+/**
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/merge-two-sorted-lists/description/">...</a>
+ * Time complexity: O(m + n) – each node from both lists is processed exactly once.
+ * Memory complexity: O(1) – only a few pointers (dummy, current) are used; we reuse existing nodes.
+ */
+
 public class MergeTwoSortedLists {
 
-    // time complexity is O(n + m) and memory complexity is O(1)
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null) {
             return list2;

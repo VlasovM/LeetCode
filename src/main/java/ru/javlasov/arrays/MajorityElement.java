@@ -1,11 +1,12 @@
 package ru.javlasov.arrays;
 
 /**
- * Link in LeetCode:
- * <a href="https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
- * <p>
+ * Complexity: Easy
+ * LeetCode: <a href="https://leetcode.com/problems/majority-element/description/">...</a>
  * In this task we use Boyer-Moore Majority Voting Algorithm:
  * <a href="https://www.geeksforgeeks.org/theory-of-computation/boyer-moore-majority-voting-algorithm/">...</a>
+ * Time complexity: O(n) – single pass through the array.
+ * Memory complexity: O(1) – constant extra memory.
  */
 
 public class MajorityElement {

@@ -2,13 +2,15 @@ package ru.javlasov.arrays;
 
 import java.util.Arrays;
 
-public class HIndex {
+/**
+ * Complexity: Medium
+ * LeetCode: <a href="https://leetcode.com/problems/h-index/description/">...</a>
+ * Подсказка: Минимальное цитирование среди n - i статей не меньше, чем количество этих статей
+ * Time complexity: O(n log n) – dominated by sorting the array.
+ * Memory complexity: O(1) – constant extra memory (sorting may use O(log n) stack space, but typically considered O(1) for primitives).
+ */
 
-    /**
-     * LeetCode:
-     * <a href="https://leetcode.com/problems/h-index/description/?envType=study-plan-v2&envId=top-interview-150">...</a>
-     *  Подсказка: Минимальное цитирование среди n - i статей не меньше, чем количество этих статей
-     */
+public class HIndex {
 
     public static int hIndex(int[] citations) {
         Arrays.sort(citations); // we use default method from java.ulils

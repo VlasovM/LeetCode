@@ -1,19 +1,20 @@
-package ru.javlasov.medium;
+package ru.javlasov.greedy;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.javlasov.greedy.BestTimeToBuyAndSellStockII.maxProfit;
+import static ru.javlasov.greedy.BestTimeToBuyAndSellStock.maxProfit;
 
-class BestTimeToBuyAndSellStockIITest {
+class BestTimeToBuyAndSellStockTest {
+
 
     @Test
     @DisplayName("Example 1: prices = [7,1,5,3,6,4]")
-    void testExampleFirst() {
+    void testRotateArrayTestExampleFirst() {
         int[] prices = {7, 1, 5, 3, 6, 4};
 
-        int expected = 7;
+        int expected = 5;
         System.out.println("expected: " + expected);
 
         int actual = maxProfit(prices);
@@ -23,7 +24,7 @@ class BestTimeToBuyAndSellStockIITest {
 
     @Test
     @DisplayName("Example 2: prices = [7,6,4,3,1]")
-    void testExampleSecond() {
+    void testExampleFirst() {
         int[] prices = {7, 6, 4, 3, 1};
 
         int expected = 0;
@@ -35,11 +36,11 @@ class BestTimeToBuyAndSellStockIITest {
     }
 
     @Test
-    @DisplayName("Example 3: prices = [1,2,3,4,5]")
-    void testExampleThird() {
-        int[] prices = {1, 2, 3, 4, 5};
+    @DisplayName("Example 3: prices = [1, 3, 1]")
+    void testExampleSecond() {
+        int[] prices = {1, 3, 1};
 
-        int expected = 4;
+        int expected = 2;
         System.out.println("expected: " + expected);
 
         int actual = maxProfit(prices);
