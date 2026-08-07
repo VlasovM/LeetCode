@@ -4,6 +4,7 @@ public class ListNode {
 
     private int val;
     private ListNode next;
+    private ListNode random;
 
     public ListNode() {
 
@@ -11,11 +12,19 @@ public class ListNode {
 
     public ListNode(int val) {
         this.val = val;
+        this.next = null;
+        this.random = null;
     }
 
     public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
+    }
+
+    public ListNode(int val, ListNode random, ListNode next) {
+        this.val = val;
+        this.next = next;
+        this.random = random;
     }
 
     public int getVal() {
@@ -32,6 +41,14 @@ public class ListNode {
 
     public void setNext(ListNode next) {
         this.next = next;
+    }
+
+    public ListNode getRandom() {
+        return random;
+    }
+
+    public void setRandom(ListNode random) {
+        this.random = random;
     }
 
     @Override
